@@ -3,9 +3,10 @@ package main
 import (
 	"C"
 	"fmt"
-	"github.com/mraleph/go_dart_ffi_example/dart_api_dl"
 	"time"
 	"unsafe"
+
+	"github.com/codebunt/go_dart_ffi_example/dart_api_dl"
 )
 
 //export InitializeDartApi
